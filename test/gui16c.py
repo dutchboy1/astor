@@ -16,8 +16,8 @@ from collections import Counter
 
 master = Tk()
 master.title("Astrology App")
-#master.geometry("700x620")
-master.geometry("600x665")
+master.geometry("700x620")
+#master.geometry("600x665")
 #os.system('''/usr/bin/osascript -e 'tell app "Finder" to set frontmost of process "Python" to true' ''')
 master.lift()
 master.attributes('-topmost', True)
